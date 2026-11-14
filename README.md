@@ -131,3 +131,14 @@ MongoDB is used to store movie information. Mongoose is used to define the movie
 **Project:** Movie Collection Manager
 
 **Technology:** MERN Stack
+
+## Application Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Add Movie
+![Add Movie](screenshots/add-movie.png)
+
+### Movie Collection
+![Movie Collection](screenshots/movie-collection.png)
