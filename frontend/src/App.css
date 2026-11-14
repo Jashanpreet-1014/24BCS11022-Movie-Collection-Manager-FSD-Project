@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #10141f;
+  color: #f9fafb;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 40px 25px;
+}
+
+h1 {
+  text-align: center;
+  color: #facc15;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #9ca3af;
+  margin-bottom: 35px;
+}
+
+.movie-form {
+  background: #1c2433;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 650px;
+  margin: 0 auto 45px;
+  border: 1px solid #303b4d;
+}
+
+.movie-form h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.movie-form input {
+  width: 100%;
+  padding: 13px;
+  margin: 7px 0;
+  background: #111827;
+  color: white;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  outline: none;
+}
+
+.movie-form input:focus {
+  border-color: #facc15;
+}
+
+.movie-form input::placeholder {
+  color: #9ca3af;
+}
+
+button {
+  padding: 11px 18px;
+  margin: 8px 5px 0 0;
+  background: #eab308;
+  color: #111827;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #facc15;
+  transform: translateY(-2px);
+}
+
+.movie-form button {
+  display: inline-block;
+}
+
+.collection-heading {
+  margin-bottom: 22px;
+  font-size: 25px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px;
+}
+
+.movie-card {
+  background: #1c2433;
+  padding: 23px;
+  border-radius: 12px;
+  border: 1px solid #303b4d;
+  transition: 0.2s;
+}
+
+.movie-card:hover {
+  border-color: #eab308;
+  transform: translateY(-4px);
+}
+
+.movie-card h3 {
+  color: #facc15;
+  font-size: 21px;
+  margin-top: 0;
+}
+
+.movie-card p {
+  color: #d1d5db;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.actions {
+  margin-top: 18px;
+}
+
+.empty {
+  text-align: center;
+  color: #9ca3af;
+  padding: 30px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 25px 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 25px;
+  padding: 14px;
+  background: #1c2433;
+  color: white;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #facc15;
+}
